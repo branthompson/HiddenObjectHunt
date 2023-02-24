@@ -1,0 +1,19 @@
+
+.bg
+{
+    border: 3px solid black;
+    float: right;
+    width: 1224px;
+    height: 686px;
+    background-image: url(15-1a1-1024x686.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftdiv
+{
+    width: auto;
+    height: auto;
+    float: left;
+
+}
