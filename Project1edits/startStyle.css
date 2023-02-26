@@ -1,0 +1,61 @@
+body {
+	background-image: url(startPage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: lucida handwriting;
+	text-align: center;
+	padding-top: 8%;
+	font-size: 20px;
+
+}
+
+h1 {
+	padding-top: 1px;
+	font-size: 80px;
+}
+
+div img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	position: relative;
+}
+
+#cap {
+	position: fixed;
+	top: 490px;
+	left: 830px;
+	text-align: center;
+	font-size: 70px;
+}
+
+@keyframes pulse {
+  0% {
+   color: black;
+  }
+  50%{
+     opacity: 25%;
+  }
+  100% {
+    color: black;
+  }
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  animation: pulse 5s infinite;
+}
+
+a:active {
+  color: black;
+}
+
