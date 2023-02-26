@@ -31,31 +31,27 @@ div img{
 	font-size: 70px;
 }
 
-@keyframes pulse {
-  0% {
-   color: black;
-  }
-  50%{
-     opacity: 25%;
-  }
-  100% {
-    color: black;
-  }
+a {
+	opacity: .2;
+	color: black;
+	transition: opacity 2s ease-in-out;
+}
+
 }
 
 a:link {
-  color: black;
+	color: black;
 }
 
 a:visited {
-  color: black;
+	color: black;
 }
 
 a:hover {
-  animation: pulse 5s infinite;
+  opacity: 1;
 }
 
 a:active {
-  color: black;
+	color: black;
 }
 
