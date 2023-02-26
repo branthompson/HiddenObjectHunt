@@ -1,0 +1,157 @@
+
+.bg
+{
+    position: relative;
+    border: 3px solid black;
+    float: right;
+    width: 1224px;
+    height: 800px;
+    background-image: url(15-1a1-1024x686.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+	
+	
+}
+body{
+  background-color: wheat;
+  
+  
+}
+
+.leftdiv
+{
+    margin: auto;
+    padding-left: 500px;
+    height: auto;
+   
+}
+ul{
+  font-family: lucida handwriting;
+  font-size: larger;
+  
+}
+li{
+  list-style: none;
+ 
+  
+}
+li::before{
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  background-image: url("smallcoin.gif");
+  
+}
+
+#items{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 50px;
+  border-radius: 50%;
+  
+}
+
+#item-sprites 
+{
+
+
+}
+
+#item-sprites:active
+{
+  animation: wiggle 1s ease-in-out infinite;
+
+}
+
+#item-sprites:not(:active)
+{
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes wiggle 
+{ 
+  15% {transform: translate(0, -0.5cm);}
+  25% {transform: rotate(10deg);}
+  45% {transform: rotate(-10deg);}
+  65% {transform: rotate(20deg);}
+  85% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.slippers
+{
+  position: absolute;
+  left: 6cm;
+  top: 19.5cm;
+  height: 60px;
+  width: 80px;
+  
+}
+
+.laptop
+{
+  position: absolute;
+  left: 13cm;
+  top: 11.4cm;
+  height: 90px;
+  width: 130px;
+  
+}
+
+.alexa
+{
+  position: absolute;
+  left: 18cm;
+  top: 15.2cm;
+  height: 60px;
+  width: 80px;
+  
+}
+
+.carkeys
+{
+  position: absolute;
+  left: 2.5cm;
+  top: 16cm;
+  height: 25px;
+  width: 25px;
+  
+}
+
+.calculator
+{
+  position: absolute;
+  left: 23.5cm;
+  top: 14cm;
+  height: 50px;
+  width: 60px;
+  
+}
+
+.bottle
+{
+  position: absolute;
+  left: 27.5cm;
+  top: 12cm;
+  height: 90px;
+  width: 30px;
+  
+}
+
+.painting
+{
+  position: absolute;
+  left: 8cm;
+  top: 4cm;
+  height: 170px;
+  width: 150px;
+  
+}
+
